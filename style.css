@@ -135,7 +135,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: box5-zoom1 2s infinite  ;
+    animation: box5-zoom1 2s infinite;
 }
 
 .zoom1:hover{
@@ -151,7 +151,6 @@
 
 .box6{
     align-items: center;
-    justify-content: center;
 }
 
 .box6 p{
@@ -168,14 +167,18 @@
 
 @keyframes box6{
 
-    50%{
-        transform: rotate(180deg);  
+    100%{
+        translate: 100px;
     }
 
-    100%{
-        width: 200px;
-        height: 200px;
-    }
+   100%{
+    transform: rotate(180deg);
+   }
+
+   100%{
+    width: calc(180px);
+    height: calc(200px);
+   }
 
 }
 
